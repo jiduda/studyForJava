@@ -14,5 +14,11 @@ public class _01_String1 {
         System.out.println(s.lastIndexOf("Java"));  // 뒤에서 먼저 찾음
         System.out.println(s.startsWith("I am"));
         System.out.println(s.endsWith("."));
+
+        System.out.println(s.replace(",", " and"));
+        System.out.println(s.substring(7));
+        System.out.println(s.substring(s.indexOf("Java"), s.indexOf(".")+1)); // 시작 위치부터 끝 위치까지
+        System.out.println(s.trim());   // 앞 뒤 공백 제거
+        System.out.println(s.concat(",").concat(s));
     }
 }
